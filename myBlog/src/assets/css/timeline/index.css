@@ -1,0 +1,32 @@
+.block {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  background-color: #7e8ec7;
+  height: 91.5vh;
+  box-sizing: border-box;
+  background: url("../../img/bg5.jpg") center center / cover no-repeat;
+}
+
+.timeline {
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 2rem;
+}
+
+.timeline .timeline-1 {
+  margin-left: -20%;
+}
+
+.timeline .color {
+  background-color: #49df6c;
+}
+
+.timeline h4 {
+  margin: 8px 0;
+  font-size: 1.25rem;
+}
+
+.timeline p {
+  margin: 8px 0;
+}

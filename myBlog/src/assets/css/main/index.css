@@ -1,0 +1,56 @@
+.personalization {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-top: 60px;
+  height: 100vh;
+  background: url("../../img/background.jpg") center center / cover no-repeat;
+}
+
+.everyday {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  color: hsla(0,0%,93.3%,.8);
+}
+
+.everyday .time{
+  padding-bottom: 20px;
+}
+
+.everyday .time span {
+  color: #00eeffce;
+}
+
+.everyday .day {
+  margin-right: 1.333vw;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif
+}
+.everyday .month,
+.everyday .year{
+  font-size: 2rem;
+}
+.everyday .year{
+  padding-left: 0.3rem;
+}
+
+.everyday .english{
+  margin: 1.25rem;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+.everyday .chinese{
+  margin: 0 1rem 1rem;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+.everyday .author{
+  float: right;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}

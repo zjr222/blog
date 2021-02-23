@@ -1,0 +1,80 @@
+.header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #222;
+  flex-wrap: nowrap;
+  z-index: 999 !important;
+}
+
+.header .avtor {
+  padding: 0 20px;
+  flex-grow: 2;
+}
+
+.header .avtor span {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .search {
+  flex-grow: 0;
+}
+
+.avtor .person {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.header .list {
+  padding-left: 20px;
+  flex-grow: 1.5;
+}
+
+.list .list-items {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.list-items li {
+  flex-grow: 1;
+}
+
+.list-items li span.common{
+  cursor: pointer;
+}
+
+.list-items li span.common:hover {
+  color: #37ea99;
+}
+
+.list-items li i {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.list-items li a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.list-items li span.tag{
+  color: #fff;
+}
+
+.list-items li .dropdown span {
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.list-items li .dropdown .common span:hover {
+  color: #37ea99;
+}

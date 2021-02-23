@@ -1,0 +1,77 @@
+.fixed {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  z-index: 9999 !important
+}
+
+.fixed span {
+  display: block;
+  width: 300px;
+  line-height: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fixed i {
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+.fixed img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.self .item1 {
+  background: url('../../img/b1.jpg') center center / cover no-repeat;
+}
+
+.self .section-one {
+  position: absolute;
+  left: 50%;
+  top: 12.5%;
+  width: 650px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 30px black;
+  overflow: hidden;
+  text-align: center;
+  z-index: 999 !important;
+}
+
+.self .section-one .text_one{
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.self .section-one .text_two{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+.self .section-one .text_three{
+    font-size: 1.5rem;
+}
+
+.self .item2 {
+  background: url('../../img/b2.jpg') center center / cover no-repeat;
+}
+
+.self .item3 {
+  background: url('../../img/b3.jpg') center center / cover no-repeat;
+
+}
+
+.self .item4 {
+  background: url('../../img/b4.jpg') center center / cover no-repeat;
+
+}

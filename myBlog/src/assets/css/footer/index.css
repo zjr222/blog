@@ -1,0 +1,29 @@
+.footer {
+  padding: 1.6rem 4rem;
+  background-color: #333;
+  border-top: 1px solid #444;
+}
+
+.footer .box {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+
+.footer .box .ui,
+.footer .box .koRecord,
+.footer .box .person {
+  flex-grow: 1;
+}
+
+.footer .ui i,
+.footer .koRecord i,
+.footer .person i {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.footer span {
+  color: #37ea99;
+}

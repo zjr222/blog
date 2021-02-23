@@ -1,0 +1,33 @@
+{
+  "name": "myblogexpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -x npm run server",
+    "server": "node index"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "fetch": "^1.1.0",
+    "http-errors": "~1.6.3",
+    "http-proxy-middleware": "^1.0.6",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.2.5",
+    "path-to-regexp": "^6.2.0",
+    "qrcode": "^1.4.4",
+    "sequelize": "^6.3.5",
+    "svg-captcha": "^1.4.0",
+    "validate": "^5.1.0",
+    "validate.js": "^0.13.1"
+  }
+}
